@@ -30,6 +30,11 @@ client.on('message', message => {
 });
 
 client.on('message', msg=>{
+  if (msg.content ===  "wardius") {
+      msg.channel.send('```królem,wardus panem zawsze będę jego fanem```');
+  }
+});
+client.on('message', msg=>{
   if (msg.content ===  "+help") {
       msg.channel.send('```Lista komend:```');
       msg.channel.send('**+kick**');
