@@ -39,8 +39,7 @@ client.on('message', msg=>{
       msg.channel.send('```Lista komend:```');
       msg.channel.send('**+kick**');
       msg.channel.send('**+pomoc**')
-      msg.channel.send('**+avatar**')
-
+      msg.channel.send('**+servers**')
   }
 });
 client.on('message', msg=>{
