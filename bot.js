@@ -30,6 +30,11 @@ client.on('message', message => {
 });
 
 client.on('message', msg=>{
+  if (msg.content ===  "wardius") {
+      msg.channel.send('```królem,wardus panem zawsze będę jego fanem```');
+  }
+});
+client.on('message', msg=>{
   if (msg.content ===  "+help") {
       msg.channel.send('```Lista komend:```');
       msg.channel.send('**+kick**');
@@ -39,16 +44,10 @@ client.on('message', msg=>{
   }
 });
 client.on('message', msg=>{
+  if (msg.content === "+servers") {
+      msg.channel.send('https://imgur.com/a/0TKH3PH')
+client.on('message', msg=>{
   if (msg.content === "+pomoc") {
       msg.channel.send('```Jeśli kick nie działa lub bot szfankuje napisz do mnie! secret-re$ident#1972, Ale gdy bot nie może wyrzucić, musi mieć permisje administratora, jeśli nie działa to urzytkownik ma wyższe permissje```')
-
-  }
-});
-
-cli1ent.on('message', message => {
-  if (message.content === '+avatar') {
-    message.channel.send(message.author.avatarURL);
-  }
-});
 
 client.login('NTk0Nzk1NTY0NzA1Nzc1NjIw.XRhqnw.WO57fFaIsWnd03FktlJwqoUYBl8');
