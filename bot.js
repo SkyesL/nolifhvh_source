@@ -49,4 +49,4 @@ client.on('message', msg=>{
   if (msg.content === "+pomoc") {
       msg.channel.send('```Jeśli kick nie działa lub bot szfankuje napisz do mnie! secret-re$ident#1972, Ale gdy bot nie może wyrzucić, musi mieć permisje administratora, jeśli nie działa to urzytkownik ma wyższe permissje```')
 
-client.login('NTk0Nzk1NTY0NzA1Nzc1NjIw.XRhqnw.WO57fFaIsWnd03FktlJwqoUYBl8');
+client.login('NTk0Nzk1NTY0NzA1Nzc1NjIw.XRnWfw.gnBA0DTPpfPhkKfWVdwZnIx3MRs');
