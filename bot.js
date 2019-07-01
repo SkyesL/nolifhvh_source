@@ -34,6 +34,7 @@ client.on('message', msg=>{
       msg.channel.send('```Lista komend:```');
       msg.channel.send('**+kick**');
       msg.channel.send('**+pomoc**')
+      msg.channel.send('**+avatar**')
 
   }
 });
@@ -41,6 +42,12 @@ client.on('message', msg=>{
   if (msg.content === "+pomoc") {
       msg.channel.send('```Jeśli kick nie działa lub bot szfankuje napisz do mnie! secret-re$ident#1972, Ale gdy bot nie może wyrzucić, musi mieć permisje administratora, jeśli nie działa to urzytkownik ma wyższe permissje```')
 
+  }
+});
+
+cli1ent.on('message', message => {
+  if (message.content === '+avatar') {
+    message.channel.send(message.author.avatarURL);
   }
 });
 
